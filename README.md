@@ -5,7 +5,7 @@ Run Sample JUnit test using Maven on BrowserStack
 
 Note: You need Maven installed.
 
-1. git clone `https://github.com/UmangSardesai/SampleTestUsingMaven-.git`
+1. git clone `https://github.com/UmangSardesai/SampleTestUsingMaven.git`
 
 2. Enter your Username and Automate key in AppTest.java
 
