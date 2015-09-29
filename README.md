@@ -1,4 +1,4 @@
-# SampleTestUsingMaven-
+# SampleTestUsingMaven
 Run Sample JUnit test using Maven on BrowserStack
 
 ##How to run
