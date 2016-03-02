@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.BS</groupId>
-  <artifactId>SampleTestUsingMaven</artifactId>
+  <artifactId>selenide-browserstack</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>SampleTestUsingMaven</name>
+  <name>selenide-browserstack</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -18,7 +18,13 @@
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
         <version>2.45.0</version>
-    </dependency> 
+    </dependency>
+    <dependency>
+        <groupId>com.codeborne</groupId>
+        <artifactId>selenide</artifactId>
+        <version>3.0</version>
+        <scope>test</scope>
+    </dependency>     
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-server</artifactId>
